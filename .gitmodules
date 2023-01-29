@@ -1,0 +1,3 @@
+[submodule "mlib"]
+	path = mlib
+	url = https://github.com/ry755/mlib
