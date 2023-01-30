@@ -2,7 +2,7 @@
 ; Snowfox - based on MikeOS
 ; Copyright (C) 2006 - 2022 MikeOS Developers
 ; Copyright (C) 2023        ryfox
-; see LICENSE.TXT
+; see LICENSE
 ; ==================================================================
 ; FAT12 FLOPPY DISK ROUTINES (V4.6.2a6)
 ; ==================================================================

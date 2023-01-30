@@ -2,7 +2,7 @@
 ; Snowfox - based on MikeOS
 ; Copyright (C) 2006 - 2022 MikeOS Developers
 ; Copyright (C) 2023        ryfox
-; see LICENSE.TXT
+; see LICENSE
 ; ==================================================================
 ; COMMAND LINE INTERFACE
 ; ==================================================================
@@ -107,7 +107,7 @@ get_cmd:                ; Main processing loop
 
     mov di, list_string        ; 'LS' entered?
     call os_string_compare
-    jc dir_list
+    jc near dir_list
 
 
     ; If the user hasn't entered any of the above commands, then we

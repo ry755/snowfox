@@ -2,7 +2,7 @@
 ; Snowfox - based on MikeOS
 ; Copyright (C) 2006 - 2022 MikeOS Developers
 ; Copyright (C) 2023        ryfox
-; see LICENSE.TXT
+; see LICENSE
 ; ==================================================================
 
     BITS 16

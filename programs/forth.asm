@@ -2,7 +2,7 @@
 ; *
 ; *           Forth operating system for an IBM Compatible PC (ver 1.53)
 ; *                       Copyright (C) 1993-2013 W Nagel
-; *         Copyright (C) 2014-2020 MikeOS Developers -- see doc/LICENSE.TXT
+; *         Copyright (C) 2014-2020 MikeOS Developers -- see doc/LICENSE
 ; *
 ; * For the most part it follows the FIG model, Forth-79 standard
 ; * There are differences, however
@@ -3934,7 +3934,7 @@ start_forth:
 	dw      CR, CR, dotq
 	db      sf01 - $ - 1
 %if MikeOS
-	db      'Copyright (C) 2014-2020 MikeOS Developers -- see doc/LICENSE.TXT'
+	db      'Copyright (C) 2014-2020 MikeOS Developers -- see doc/LICENSE'
 %else
 	db      'Copyright 1993-2013, all rights reserved.'
 %endif
